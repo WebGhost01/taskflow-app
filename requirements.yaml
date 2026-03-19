@@ -1,0 +1,21 @@
+packages:
+  "framer-motion": "For fluid layout animations and list transitions on the Kanban board"
+  "date-fns": "For formatting due dates and creation times in human-readable strings"
+  "clsx": "Utility for conditionally joining classNames"
+  "tailwind-merge": "Utility for merging Tailwind classes efficiently"
+  "recharts": "For the dashboard statistics and charts"
+
+images:
+  - path: "artifacts/taskflow/public/images/empty-projects.png"
+    description: "A sleek, minimal 3D illustration of a floating empty folder or clipboard with soft lighting and pastel indigo tones, representing no projects found."
+    aspect_ratio: "1:1"
+  - path: "artifacts/taskflow/public/images/empty-tasks.png"
+    description: "A clean, modern 3D illustration of floating checkmarks and a stylized to-do list, soft lighting, minimalistic."
+    aspect_ratio: "1:1"
+  - path: "artifacts/taskflow/public/images/dashboard-hero.png"
+    description: "An abstract, soft gradient mesh background blending deep indigo, violet, and pristine white, suitable for a productivity app header."
+    aspect_ratio: "16:9"
+
+notes:
+  - "The app assumes endpoints are prefixed with /api as defined in the generated API client."
+  - "Using Radix/shadcn standard components assumed to be present based on the structure."
